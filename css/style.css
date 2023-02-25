@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html{
+  font-size: 62.5%; 10px for converting rem
+} */
+
+body {
+  font-family: "Poppins", sans-serif;
+
+}
+
+.header {
+  height: 100vh;
+  background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/266578848_1310066749509108_8403320271041998776_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_ohc=YGjc34yghnYAX-fvKRs&_nc_ht=scontent.fceb1-3.fna&oh=00_AfCJe26V3WZHqFd5Lb6njn0OzR8EKBfCofY_EtxK2KXhlA&oe=63FC76BD');
+  background-size: cover;
+  background-position: center;
+}
+
+.header-brand{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+}
+.header-brand__span{
+  color: #20e700;
+}
+
+nav{
+ /* background-color: orangered; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 7%;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header-text{
+  /* background-color: orangered; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.header-text h1{
+  font-size: 65px;
+  margin-top: 10px;
+}
+
+/* About me section */
+.about{
+  background-color: grey;
+  height: 80vh;
+}
+.about-text{
+  /* background-color: orangered; */
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.about-text h2{
+  font-size: 60px;
+  /* background-color: green; */
+  padding-top: 6rem;
+}
+
+.about-text p{
+  /* background-color: blue; */
+  padding-top: 2rem;
+  line-height: 1.8rem;
+  text-align: center;
+}
+
+.about-skills{
+  display: flex;
+  /* background-color: orangered; */
+  width: 50%;
+  color: white;
+  flex-direction: row;
+  margin: auto;
+  padding-top: 3%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.about-skills h3{
+  padding-right: 5%;
+}
+
+.about-skills__h3--1{
+  border-bottom: 3px solid green;
+  width: 8%;
+  margin-right: 50px;
+}
+
+/* My Portfolio section */
+
+/* Contact section */
+
+/* Footer Section */
