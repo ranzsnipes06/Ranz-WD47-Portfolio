@@ -7,20 +7,17 @@
     <title>RANZ Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/82fac282cd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!---------------------------------- Header Section ------------------------------->
-    <header>
+    <header> 
       <div class="header">
         <nav>
           <a href="#" class="header-brand"
-            >PORT<span class="header-brand__span">FOLIO</span></a
-          >
+            >PORT<span class="header-brand__span">FOLIO</span></a>
           <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -70,20 +67,24 @@
         <div class="contact">
             <div class="contact__container">
                 <div class="contact__row">
-                    <div class="contact__left">
+                    <div class="contact-left">
+                        <h2>Contact Me</h2>
+                        <p><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>ranzsnipes06@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>0956-602-1062</p>
                         <div class="contact-left__icons">
-
+                          <a><i class="fa-brands fa-facebook"></i></a>
+                          <a><i class="fa-brands fa-linkedin"></i></a>
                         </div>
-                        <a href="#" class="contact__btn contact__btn--1">Donwload CV</a>
+                        <a href="downloads/Ran-Mar.pdf" download class="contact__btn contact__btn--1">Donwload CV</a>
                     </div>
                     <div class="contact-right">
                         <form action="">
-                        <input type="text">
-                        <input type="text">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </form>
-                        <button>Submit</button>
-                    </div>
+                          <input type="text" placeholder="Your name" required>
+                          <input type="text" placeholder="Your email" required>
+                          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                          <button type="submit" class="contact__btn contact__btn--2">Submit</button>
+                        </form>
+                     </div>
                 </div>
             </div>
         </div>
