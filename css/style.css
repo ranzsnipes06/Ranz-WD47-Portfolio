@@ -72,16 +72,22 @@ nav ul li a{
 }
 
 /* About me section */
+
 .about{
   background-color: grey;
   height: 80vh;
 }
+
 .about-text{
   /* background-color: orangered; */
   color: white;
   margin: auto;
   text-align: center;
   width: 50%;
+}
+
+.about-img{
+  display: none;
 }
 
 .about-text h2{
@@ -305,7 +311,7 @@ footer{
   .header-text--2{
     display: block;
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
@@ -322,9 +328,63 @@ footer{
 
 }
 /*------------ About Section -----------*/
-/* @media only screen and (max-width: 600px){
+/* Breakpoint mobile 600px */
+ @media only screen and (max-width: 600px){
+  .about{
+    padding-top: 10%;
+    height: 150vh;
+  }
+
+  .about-img{
+    display: block;
+    text-align: center;
+    padding: 0 3% 5% 0;
+  }
+  /* .about{
+    background-color: grey;
+    height: 80vh;
+  }
   
-} */
+  .about-text{
+    color: white;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+  }
+  
+  .about-text h2{
+    font-size: 60px;
+    padding-top: 6rem;
+  }
+  
+  .about-text p{
+    padding-top: 2rem;
+    line-height: 1.8rem;
+    text-align: center;
+  }
+  
+  .about-skills{
+    display: flex;
+    width: 50%;
+    color: white;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 3%;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .about-skills h3{
+    padding-right: 5%;
+  }
+  
+  .about-skills__h3--1{
+    border-bottom: 3px solid green;
+    width: 8%;
+    margin-right: 50px;
+  } */
+} 
 /*------------ Portfolio Section -----------*/
 /* @media only screen and (max-width: 600px){
   
