@@ -3,8 +3,6 @@
     "development"
   ],
   "hints": {
-    "axe/forms": "off",
-    "button-type": "off",
     "compat-api/css": [
       "default",
       {

@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RANZ Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@400;700&display=swap" rel="stylesheet"/> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/82fac282cd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -15,19 +19,73 @@
     <!---------------------------------- Header Section ------------------------------->
     <header> 
       <div class="header">
-        <nav>
-          <a href="#" class="header-brand"
-            >PORT<span class="header-brand__span">FOLIO</span></a>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#porfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+        <div class="header__image"><img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.6435-9/74647572_2501665420112179_2545987056073441280_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=MkAmxa2xY5EAX8pqm-r&_nc_ht=scontent.fceb1-1.fna&oh=00_AfB9BHy0h19hsdZSJxteuGAmhfGrywCXlrbkx9sYpA36wQ&oe=6422B79A" alt="header image small"></div>
+        
+        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav> -->
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <a href="#" class="header-brand navbar-brand">PORT<span class="header-brand__span">FOLIO</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a href="#home">Home</a></li>
+                  <li class="nav-item"><a href="#about">About</a></li>
+                  <li class="nav-item"><a href="#porfolio">Portfolio</a></li>
+                  <li class="nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            
+          </div>
+          
         </nav>
+        <!-- Desktop -->
         <div class="header-text">
           <h1>Ran Mar Dela Cerna</h1>
           <h2>Freelance Front-end Web Developer</h2>
+        </div>
+        <!-- Mobile 600 max width -->
+        <div class="header-text--2">
+          <h1>Web Developer</h1>
+          <h2>Hi I am, <span>Ran Mar dela Cerna</span>
+            <br>Let's Connect</h2>
         </div>
       </div>
     </header>
@@ -90,7 +148,16 @@
         </div>
 
     </section>
+    <!-- End of section -->
 
     <!-- Footer section -->
+    <footer>
+      <p>Copyright 2023 &copy; Ran Mar Dela Cerna</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  
   </body>
+
 </html>

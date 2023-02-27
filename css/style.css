@@ -20,6 +20,10 @@ body {
   background-position: center;
 }
 
+.header__image{
+  display: none;
+}
+
 .header-brand{
     color: white;
     text-decoration: none;
@@ -57,9 +61,14 @@ nav ul li a{
   transform: translate(-50%, -50%);
   color: white;
 }
+
 .header-text h1{
   font-size: 60px;
   margin-top: 10px;
+}
+
+.header-text--2{
+  display: none;
 }
 
 /* About me section */
@@ -262,4 +271,67 @@ footer{
   background-color: #d9d9d9;
   font-weight: 300;
 }
+
 /* Footer Section */
+
+/*------------ Media Queries -----------*/
+
+/*------------ Hero Section -----------*/
+@media only screen and (max-width: 600px){
+  .header{
+    background-image: none; 
+    background-color: #242423;
+  }
+
+  .header__image{
+    display: block;
+  }
+
+  .header__image img{
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .header-text{
+    display: none;
+  }
+
+  .header-text--2{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+  .header-text--2 h2{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.8;
+  }
+
+  .header-text--2 span{
+    color: #20e700;
+  }
+
+}
+/*------------ About Section -----------*/
+/* @media only screen and (max-width: 600px){
+  
+} */
+/*------------ Portfolio Section -----------*/
+/* @media only screen and (max-width: 600px){
+  
+} */
+/*------------ Contact Section -----------*/
+/* @media only screen and (max-width: 600px){
+  
+} */
+
+/*------------ Footer Section -----------*/
