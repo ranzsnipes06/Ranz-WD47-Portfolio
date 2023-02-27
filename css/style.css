@@ -340,10 +340,22 @@ footer{
     text-align: center;
     padding: 0 3% 5% 0;
   }
-  /* .about{
-    background-color: grey;
-    height: 80vh;
+
+  .about-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    transition-delay: 0.01s;
   }
+
+  .about-img img:hover{
+    transform: translate(-5px, -10px);
+    cursor: pointer;
+    -moz-box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 35px 1px rgba(0,0,0,0.75);
+  }
+/*
   
   .about-text{
     color: white;
