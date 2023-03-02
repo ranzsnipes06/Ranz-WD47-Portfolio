@@ -15,7 +15,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/266578848_1310066749509108_8403320271041998776_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0debeb&_nc_ohc=YGjc34yghnYAX-fvKRs&_nc_ht=scontent.fceb1-3.fna&oh=00_AfCJe26V3WZHqFd5Lb6njn0OzR8EKBfCofY_EtxK2KXhlA&oe=63FC76BD');
+  background-image:linear-gradient(rgba(3,4,7,0.48), rgba(5,10,30,0.48)), url('https://images.wallpapersden.com/image/download/itachi-uchiha-digital-art_bWlnamWUmZqaraWkpJRnamtlrWZlbWVnZQ.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -173,8 +173,9 @@ nav ul li a{
 .portfolio__img img{
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 80vh;
   border-radius: 10px;
+  margin: 0;
 }
 .portfolio__btn{
   background-color: #45893a;
