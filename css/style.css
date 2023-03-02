@@ -278,6 +278,7 @@ form input, form textarea{
   display: inline-block;
   background-color: #312d2d;
   font-size: 18px;
+  margin: 0 ;
 }
 
 .contact__btn--2:hover{
