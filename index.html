@@ -18,7 +18,7 @@
   <body>
     <!---------------------------------- Header Section ------------------------------->
     <header> 
-      <div class="header">
+      <div class="header" id="home">
         <div class="header__image"><img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t1.6435-9/74647572_2501665420112179_2545987056073441280_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=MkAmxa2xY5EAX8pqm-r&_nc_ht=scontent.fceb1-1.fna&oh=00_AfB9BHy0h19hsdZSJxteuGAmhfGrywCXlrbkx9sYpA36wQ&oe=6422B79A" alt="header image small"></div>
         
         <!-- <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -64,7 +64,7 @@
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item"><a href="#home">Home</a></li>
                   <li class="nav-item"><a href="#about">About</a></li>
-                  <li class="nav-item"><a href="#porfolio">Portfolio</a></li>
+                  <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
                   <li class="nav-item"><a href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -87,7 +87,7 @@
 
     <!-- About me section -->
     <section>
-    <div class="about">
+    <div class="about" id="about">
       <div class="about-img">
         <img src="data:image/jpeg;base64,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" alt="mobile img for abour section">
       </div>
@@ -103,11 +103,15 @@
         <h3 class="about-skills__h3--2">Experience</h3>
         <h3 class="about-skills__h3--3">Education </h3>
     </div>
+    <div class="about__content">
+      <p class="about__para--1">HTML & CSS</p>
+      <p>Build websites with HTML & CSS</p>
+    </div>
     </div>
     </section>
     <!-- My portfolio section -->
     <section>
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
     <h2>MY PORTFOLIO</h2>
     <div class="portfolio__container">
         <div class="portfolio__img"><img src="https://scontent.fceb1-1.fna.fbcdn.net/v/t39.30808-6/266347249_1310065072842609_2254976721869317962_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0debeb&_nc_ohc=qbPB6kRbA-AAX8HK42y&_nc_ht=scontent.fceb1-1.fna&oh=00_AfAVfLwxWnNXoDX_Eqt_uue-B9A-OfMzRyqwwRETqznh5Q&oe=63FF6279" alt="dog photo blog"></div>
@@ -120,7 +124,7 @@
     </section>
     <!-- Contact section -->
     <section>
-        <div class="contact">
+        <div class="contact" id="contact">
             <div class="contact__container">
                 <div class="contact__row">
                     <div class="contact-left">
